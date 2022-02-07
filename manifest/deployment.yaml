@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: example-ts-nodejs
+  name: example-ts-nodejs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: example-ts-nodejs
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: example-ts-nodejs
+    spec:
+      containers:
+      - image: registry.edgestream.net/edgestream/example-ts-nodejs:latest
+        name: core
+        resources: {}
+        ports:
+        - name: "http"
+          containerPort: 8080

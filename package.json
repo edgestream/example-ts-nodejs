@@ -1,0 +1,25 @@
+{
+  "name": "@edgestream/example-ts-nodejs",
+  "version": "1.0.0",
+  "description": "Edgestream.net SDK Example (Typescript/NodeJS)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgestream/example-ts-nodejs.git"
+  },
+  "author": "Mario Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgestream/example-ts-nodejs/issues"
+  },
+  "homepage": "https://github.com/edgestream/example-ts-nodejs#readme",
+  "dependencies": {
+    "@types/node": "^17.0.15",
+    "typescript": "^4.6.0-dev.20220207"
+  }
+}
