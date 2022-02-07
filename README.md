@@ -1,6 +1,6 @@
-# Edgestream.net SDK Example (Typescript/NodeJS)
+# API service example (Typescript/NodeJS)
 
-Example API service written in Typescript/Javascript running on NodeJS.
+API service example written in Typescript/Javascript running on NodeJS.
 
 ## Install
 
