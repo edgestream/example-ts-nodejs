@@ -1,7 +1,7 @@
 {
   "name": "@edgestream/example-ts-nodejs",
   "version": "1.0.0",
-  "description": "Edgestream.net SDK Example (Typescript/NodeJS)",
+  "description": "API service example (Typescript/NodeJS)",
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/tsc --build",
